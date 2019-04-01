@@ -1,0 +1,6 @@
+space = int(input('Number'))#Need to print number 0 only
+simbol = 1
+while simbol < 10:#Change for simpols amount in last string
+    print(' '* space + '*'*simbol)
+    simbol += 1
+    space -= 1
