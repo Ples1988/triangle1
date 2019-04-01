@@ -1,6 +1,7 @@
-space = int(input('Number'))
+space = int(input('Number'))#Need to print more than 10 or 0 for dif triangle
 simbol = 1
-while simbol < 10:
+while simbol < 10:#Change for simpols amount in last string
     print(' '* space + '*'*simbol)
     simbol += 1
     space -= 1
+
